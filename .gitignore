@@ -11,3 +11,7 @@
 /AspireAppEmp.ServiceDefaults/obj
 /AspireAppEmp.Web/bin/Debug/net8.0
 /AspireAppEmp.Web/obj
+/AspireAppEmp.Database/bin/Debug/net8.0
+/AspireAppEmp.Database/obj
+/AspireAppEmp.Model/bin/Debug/net8.0
+/AspireAppEmp.Model/obj

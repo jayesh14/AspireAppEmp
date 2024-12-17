@@ -1,0 +1,12 @@
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\bin\Debug\net8.0\AspireAppEmp.BL.deps.json
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\bin\Debug\net8.0\AspireAppEmp.BL.dll
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\bin\Debug\net8.0\AspireAppEmp.BL.pdb
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.AssemblyInfoInputs.cache
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.AssemblyInfo.cs
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.csproj.CoreCompileInputs.cache
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.sourcelink.json
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.dll
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\refint\AspireAppEmp.BL.dll
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\AspireAppEmp.BL.pdb
+D:\Learing\AspireAppEmp\AspireAppEmp.BL\obj\Debug\net8.0\ref\AspireAppEmp.BL.dll
