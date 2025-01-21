@@ -1,5 +1,8 @@
 using AspireAppEmp.Web;
+using AspireAppEmp.Web.Authentication;
 using AspireAppEmp.Web.Components;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +13,18 @@ builder.AddServiceDefaults();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/login"; // Set the login page path
+    });
+
+//builder.Services.AddAuthentication().AddCookie();
+builder.Services.AddCascadingAuthenticationState();
+
 builder.Services.AddOutputCache();
+
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
 builder.Services.AddHttpClient<WeatherApiClient>(client =>
     {
@@ -32,6 +46,9 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseOutputCache();
 

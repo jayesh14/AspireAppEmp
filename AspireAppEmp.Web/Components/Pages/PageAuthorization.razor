@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string RequiredRole { get; set; } = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (!user.Identity?.IsAuthenticated ?? true || 
+            (!string.IsNullOrEmpty(RequiredRole) && !user.IsInRole(RequiredRole)))
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+    }
+}
+
+<CascadingAuthenticationState>
+    @ChildContent
+</CascadingAuthenticationState>

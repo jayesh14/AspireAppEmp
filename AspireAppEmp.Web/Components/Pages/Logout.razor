@@ -1,0 +1,12 @@
+﻿@page "/logout"
+@using AspireAppEmp.Web.Authentication
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider authStateProvider
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await ((CustomAuthenticationStateProvider)authStateProvider).MarkUserAsLogout();
+        Navigation.NavigateTo("/login");
+    }
+}

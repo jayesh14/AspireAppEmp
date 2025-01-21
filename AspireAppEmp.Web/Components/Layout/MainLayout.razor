@@ -7,7 +7,15 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+          <Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
+              <Authorized>
+                  <div>Hello, @context.User.Identity?.Name</div>
+                  <a href="/logout">Logout</a>
+              </Authorized>
+              <NotAuthorized>
+                  <div>No Auhorized</div>
+              </NotAuthorized>
+          </Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
         </div>
 
         <article class="content px-4">

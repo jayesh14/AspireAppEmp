@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireAppEmp.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9491b6a097638deb0b518c7dcc62cd0678cd7494")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2aff74c8b7f3bf31ab530f73f2a6cd02943c2b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireAppEmp.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireAppEmp.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

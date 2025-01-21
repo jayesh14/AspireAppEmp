@@ -10,11 +10,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireAppEmp.ApiService", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireAppEmp.Web", "AspireAppEmp.Web\AspireAppEmp.Web.csproj", "{D419EAFA-4541-43C3-BD61-F79D11D28207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppEmp.BL", "AspireAppEmp.BL\AspireAppEmp.BL.csproj", "{32289F3B-8F83-4039-999B-27B04A9181FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireAppEmp.BL", "AspireAppEmp.BL\AspireAppEmp.BL.csproj", "{32289F3B-8F83-4039-999B-27B04A9181FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppEmp.Model", "AspireAppEmp.Model\AspireAppEmp.Model.csproj", "{5CF3CD14-85D7-450B-ABA1-3443F152B32C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireAppEmp.Model", "AspireAppEmp.Model\AspireAppEmp.Model.csproj", "{5CF3CD14-85D7-450B-ABA1-3443F152B32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppEmp.Database", "AspireAppEmp.Database\AspireAppEmp.Database.csproj", "{7A040BAC-2696-4A88-A2D5-87DE1A84EA88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireAppEmp.Database", "AspireAppEmp.Database\AspireAppEmp.Database.csproj", "{7A040BAC-2696-4A88-A2D5-87DE1A84EA88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
